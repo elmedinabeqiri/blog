@@ -7,10 +7,14 @@
     <title>Register</title>
     <link rel="stylesheet" href="css/SignUpp.css">
     <script defer src="js/SignUpvalidation.js"></script>
-    
 </head>
 
 <body>
+
+        
+<?php
+include 'topmenu.php'; 
+?>
 
 
 <div class="title">
@@ -21,18 +25,19 @@
  
 <div class="content">
     <div class="form">
-        <label for="">Name: </label><br>
+        <form onsubmit= "return validate()" action="db/SignUpdb.php" id="form" method="POST">
+        <label for="">name: </label><br>
         <input type="text" name="name" id="name" required ><br>
-        <label for="">Surname: </label><br>
+        <label for="">surname: </label><br>
         <input type="text" name="surname" id="surname" required ><br>
-        <label for="">Email: </label><br>
+        <label for="">email: </label><br>
         <input type="email" name="email" id="email" required><br>
-        <label for="">Username: </label><br>
+        <label for="">username: </label><br>
         <input type="text" name="username" id="username" required><br>
-        <label for="">Password: </label><br>
+        <label for="">password: </label><br>
         <input type="Password" name="password"  id="password" required><br>
         <input type="Submit" name="submit" value="Sign Up" id="Submit" required>
-        <li><a href="LogIn.html">Already have an account? Log in</a></li>
+        <li><a href="LogIn.php">Already have an account? Log in</a></li>
     </form>
 </div>
 </div>
