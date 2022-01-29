@@ -1,7 +1,7 @@
 <?php
 
 
-$DB = new mysqli('localhost', 'root', '', 'lab-projekti');
+$DB = new mysqli('localhost', 'root', '', 'inxhinierieweb');
 
 
 if($DB -> connect_error){
