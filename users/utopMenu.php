@@ -49,7 +49,7 @@
 
 
             <div class="logo-container">
-                <img src="../pictures/reverselogoblack.png" alt="logo.png" />
+                <img src="../pictures/reverselogoblack.jpg" alt="logo.png" />
             </div>
             <div class="logout"> <button class="logOut" onclick="window.location.href='LogOut.php'">Log Out</button>
             </div>

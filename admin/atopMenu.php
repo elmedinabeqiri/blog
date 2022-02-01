@@ -36,7 +36,7 @@
                 
             </div>
             <div class="logo-container"> 
-            <img src="../pictures/adminlogo.png" alt="logo.png" />
+            <img src="pictures/adminlogo.jpg" alt="adminlogo.jpg" />
             </div>
             <div class="logout"> <button class="logOut" onclick="window.location.href='LogOut.php'">Log Out</button></div>
            
