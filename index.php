@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="cover">
-            <img src="" alt="" />
+            <img src="pictures/logo.jpg" alt="logo.jpg"/>
         </div>
     </section>
 </main>

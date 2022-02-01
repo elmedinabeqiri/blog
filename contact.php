@@ -46,7 +46,9 @@
         </div>
         <div class="map">
        
-            
+            <a href="skincare.php">
+                        <img src="pictures\contactlogo.jpg" title="insert title" width="350px" height="350px"alt="insert description here"></a>
+                             
         </div>
       </div>
     </div>

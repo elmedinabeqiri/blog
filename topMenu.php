@@ -29,7 +29,9 @@
                 </div>
 
             </div>
-            
+            <div class="logo-container">
+                <img src="pictures\logo.jpg" alt="logo.jpg" />
+            </div>
 
         </div>
     </div>
