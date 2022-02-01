@@ -28,7 +28,7 @@
                 <i class="fa fa-bars"></i> </button>
                 </div>
 
-            </div>
+                </div>
             <div class="logo-container">
                 <img src="pictures\logo.jpg" alt="logo.jpg" />
             </div>

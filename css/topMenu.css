@@ -22,16 +22,13 @@ body{
 .main-container{
  
     font-size: 1vmax;
-   
+    
 }
 
 .main{
     background-color: #ecd5d9;
-    display: flex;
-    padding: 0;
-
-  
-
+    display: flex ;
+    padding: 1.5 solid #000000;
 }
 
 
@@ -77,7 +74,6 @@ body{
 .links ul li  {
     position: relative;
   display: inline-block;
-  border-bottom: 1.5px solid #000000;
 
 }
  
@@ -116,6 +112,9 @@ body{
         display: none;  
     }
     
+    .logo-container{
+        display: none;  
+    }
   
 
     .links{  

@@ -29,9 +29,32 @@
                 <button class="cta-add" onclick="window.location.href='LogIn.php'">Log In</button>
             </div>
         </div>
-        <div class="cover">
-            <img src="pictures/logo.jpg" alt="logo.jpg"/>
-        </div>
+    
+        <div class="w3-content w3-section" style="max-width:500px">
+
+       <img class="mySlides w3-animate-fading" src="pictures/makeproduct1.jpg" style="width:100%">
+       <img class="mySlides w3-animate-fading" src="pictures/look2.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="pictures/makeproduct5.jpg" style="width:100%">
+      <img class="mySlides w3-animate-fading" src="pictures/look8.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000);    
+}
+</script>
+    </script>
     </section>
 </main>
 <?php
