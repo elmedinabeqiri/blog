@@ -16,7 +16,7 @@
 </div>
 
     <div class="footer-bottom">
-        <p id="p1">Designed by: Marigona Kadriu and Nderona Kamberi</p>
+        <p id="p1">Designed by: Elmedina Beqiri and Loreta Zeka</p>
     </div>
 </div>
 
